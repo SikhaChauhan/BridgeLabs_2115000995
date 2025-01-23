@@ -11,7 +11,7 @@ class ArmstgNum
         while (temp != 0)
         {
             int remdr = temp % 10;
-            sum_Cubes += remainder * remdr * remdr;
+            sum_Cubes += remdr * remdr * remdr;
             temp /= 10;
         }
 
