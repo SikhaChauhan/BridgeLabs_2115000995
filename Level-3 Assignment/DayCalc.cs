@@ -1,12 +1,12 @@
 using System;
 class Day_Calc
 {
-    static void Main()
+    static void Main(string[] args)
     {
         day_check();
-	}
-	static void day_check(){
-		Console.Write("Enter month (1-12): ");
+    }
+    static void day_check(){
+	Console.Write("Enter month (1-12): ");
         int mon= int.Parse(Console.ReadLine());
         Console.Write("Enter day: ");
         int day = int.Parse(Console.ReadLine());
@@ -19,5 +19,5 @@ class Day_Calc
         int week_Day = (day + leap_fact + 31 * mon_Adjstd / 12) % 7;
 
         Console.WriteLine($"The day of the week is: {week_Day}");
-	}
+     }
 }
