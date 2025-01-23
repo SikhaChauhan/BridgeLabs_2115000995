@@ -1,7 +1,7 @@
 using System;
 class AbundantNum
 {
-    static void Main()
+    static void Main(string[] args)
     {
         checkNum();
     }
