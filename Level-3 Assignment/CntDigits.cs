@@ -3,10 +3,10 @@ class CntDigits
 {
     static void Main()
     {
-        cnt_digits();
+        cnt_digits(string[] args);
     }
 	static void cnt_digits(){
-		Console.Write("Enter a number: ");
+	Console.Write("Enter a number: ");
         int user_Ipt = int.Parse(Console.ReadLine());
         int digit_Cnt = 0;
 
