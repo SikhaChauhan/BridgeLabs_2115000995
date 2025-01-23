@@ -15,9 +15,11 @@ class ArmstgNum
             temp /= 10;
         }
 
-        if (sum_Cubes == ip_Num)
+        if (sum_Cubes == ip_Num){
             Console.WriteLine($"{ip_Num} is an Armstrong Number.");
-        else
+        }
+        else{
             Console.WriteLine($"{ip_Num} is not an Armstrong Number.");
+        }
     }
 }
