@@ -2,7 +2,7 @@ using System;
 
 class CalcSwitch
 {
-    static void Main()
+    static void Main(string[] args)
     {
         calc_switch();
     }
