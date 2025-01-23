@@ -2,7 +2,7 @@ using System;
 
 class ArmstgNum
 {
-    static void Main()
+    static void Main(string[] args)
     {
         Console.Write("Enter a number: ");
         int ip_Num = int.Parse(Console.ReadLine());
